@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class PropertiesHelper {
 
-    public static String getBaseURL() {
-        return getProperty("base_url");
+    public static String getHomePageURL() {
+        return getProperty("home_page_url");
     }
 
     public static String getUserName() {
